@@ -1,0 +1,3 @@
+#include "windows.h"
+
+int main() { system("echo THIS IS THE MOST IMPORTANT ONE!"); system("title HWID CHECKER."); system("color c"); system("wmic diskdrive get serialnumber"); system("echo Diskdrive Serial Number (second method)"); system("wmic path win32_physicalmedia get SerialNumber"); system("echo GPU SERIAL"); system("echo."); system("wmic PATH Win32_VideoController GET Description,PNPDeviceID"); system("pause >Nul"); }
